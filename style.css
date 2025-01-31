@@ -4,6 +4,8 @@
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  color: #000;
 }
 
 body {
@@ -41,10 +43,16 @@ body {
   color: var(--black-text);
   font-size: 15px;
   font-family: lobster;
+  color: black;
+  align-content: center;
+  margin: auto;
+  margin-top: 15px;
+  margin-left: 30px;
+  text-decoration: none;
 }
 
 .header-container {
-  height: 50px;
+  height: 70px;
   width: 100%;
   background-color: rgb(251, 254, 254);
   display: flex;
@@ -54,23 +62,24 @@ body {
   padding: 5px;
   box-sizing: border-box;
   position: unset;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .navbar {
   height: 95%;
   width: 53%;
-  /* background-color: rgb(153, 179, 202); */
   display: flex;
   gap: 2px;
-  /* flex: 1; */
   justify-content: space-evenly;
   align-items: center;
   color: var(--black-text);
   margin: auto;
   padding: 0 5px;
-  /* padding-left: 40px; */
   box-sizing: border-box;
   font-size: 12px;
+  /* background-color: rgb(153, 179, 202); */
 }
 
 .eaderIcons {
@@ -79,20 +88,30 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: auto;
+  /* background-color: antiquewhite; */
 }
 
 .back-icon {
   color: #000000;
 }
 
+
+
+    /* BODY */
+
 .horizontal {
   width: 100vw;
   display: flex;
   gap: 10px;
+  margin-top: 5em;
 }
 
+
+
+
 .left-div {
-  height: 90vh;
+  height: 80vh;
   width: 50px;
   background-color: #E7F9FD;
   margin: auto;
@@ -102,7 +121,7 @@ body {
 }
 
 .right-div {
-  height: 90vh;
+  height: 80vh;
   width: 40px;
   background-color: #E7F9FD;
   margin: auto;
@@ -113,7 +132,7 @@ body {
 
 .first-section {
   width: 85vw;
-  height: 90vh;
+  height: 80vh;
   margin: 20px auto;
   display: flex;
   border-radius: 16px;
